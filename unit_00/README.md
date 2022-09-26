@@ -1,3 +1,3 @@
 # Unit 00
 
-You should use this folder for any sandbox activities that you are carrying out
+If you want a good time, type sudo rm -rf
