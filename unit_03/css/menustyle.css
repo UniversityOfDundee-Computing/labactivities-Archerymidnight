@@ -1,0 +1,36 @@
+/*
+#618985
+#F9EBE0
+#D1495B
+#D17B0F
+#2F2235
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;500&family=Great+Vibes&display=swap');
+
+
+body {
+    background-color: #DEFFF2;
+    background-image: url(https://picsum.photos/id/163/2400/1500);
+    background-repeat:no-repeat;
+    font-family: 'Chakra-Petch';
+}
+
+.restaurantSection{
+    background-color: #0FF4C6;
+    max-width: 720px;
+    margin:auto
+}
+
+.menuItems{
+    background-color: #D68FD6;
+    max-width: 810px;
+    max-height:810px;
+    margin:auto
+}
+.price{
+    color: #464F51;
+}
+.menuItems{
+    color: #000009
+}
