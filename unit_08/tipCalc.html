@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+
+  <link rel="stylesheet" href="tipCalc.css">
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+    integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
+  <title>Tip Calculator</title>
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <h1><strong>Tip Calculator</strong></h1>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <form>
+          <div class="form-group">
+            <label for="formGroupExampleInput">Enter Total Bill Amount</label>
+            <input type="number" step="0.01" class="form-control" id="total" placeholder="Bill Price">
+          </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <p>Select Tip Preferences</p>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row py-2">
+      <div class="col-sm-4">
+        <button type="button" id="5"
+          class="btn btn-dark btn-block btn-lg buttonSpace px-5 selectable"><strong>5%</strong></button>
+      </div>
+      <div class="col-sm-4">
+        <button type="button" id="10" class="btn btn-dark btn-block btn-lg buttonSpace px-5">10%</button>
+      </div>
+      <div class="col-sm-4">
+        <button type="button" id="25" class="btn btn-dark btn-block btn-lg buttonSpace px-5">25%</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <button type="button" id="Largest" class="btn btn-dark btn-block btn-lg buttonSpace">Largest from 25% or
+          £2+10%</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row px-auto">
+      <div class="col-sm ">
+        <p>Tip to Give</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm mx-auto">
+        <h1 class="largeTip" id="tip">£xx.xx</h1>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="tipCalc.js"></script>
+</body>
+
+</html>

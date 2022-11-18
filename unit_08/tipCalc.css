@@ -1,0 +1,17 @@
+.smallTip {
+    font-size: larger;
+    color:red;
+    background-color: yellow;
+}
+
+.mediumTip {
+    font-size: x-large;
+    color: yellow;
+    background-color: blue;
+}
+
+.largeTip {
+    font-size: xx-large;
+    color: greenyellow;
+    background-color: gray;
+}
